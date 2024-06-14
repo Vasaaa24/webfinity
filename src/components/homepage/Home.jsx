@@ -6,7 +6,7 @@ const Home = () => {
       <section className="home" id="home">
         <div className="home-content">
           <h1>
-          Objednejte si svoji <span>stránku</span> na míru.
+          Objednejte si <span>stránku</span> na míru.
           </h1>
           
           <p>
