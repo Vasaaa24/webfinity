@@ -10,7 +10,7 @@
 }
 
 :root {
-  --bg-color: #080808;
+  --bg-color:linear-gradient(60deg, rgba(137,44,220,1) 0%, rgba(82,5,123,1) 50%, rgba(0,0,0,1) 100%);
   --second-bg-color: #131313;
   --text-color: white;
   --main-color: #00ffee;
