@@ -17,11 +17,11 @@ const Home = () => {
             Spolehněte se na nás !
           </p>
           <div className="btn-group">
-            <a href="#contact" className="btn">
-              Napsat
+            <a href="#" className="btn">
+              Onjednat
             </a>
-            <a href="#services" className="btn">
-              Znalosti
+            <a href="#about" className="btn">
+              Více informací
             </a>
           </div>
         </div>

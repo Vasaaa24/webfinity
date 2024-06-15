@@ -28,15 +28,14 @@ const Menu = () => {
   return (
     <header className="header">
       <a href="#home" className="logo">
-        Webfinity
+        Webfinity <span>team</span>
       </a>
 
       <nav className="navbar">
         <a href="#home">Úvod</a>
-        <a href="#education">Vzdělání</a>
-        <a href="#services">Skills</a>
-        <a href="#testimonials">Projekty</a>
-        <a href="#contact">Kontakty</a>
+        <a href="#about">O nás</a>
+        <a href="#">Cenník</a>
+        <a href="#">Kontakty</a>
       </nav>
       <div className="pozadiBurger" id="prvniBurger" onClick={getDropdown}>
           <div className="burger PrvniB" id="PrvniB"></div>

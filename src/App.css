@@ -10,10 +10,10 @@
 }
 
 :root {
-  --bg-color:linear-gradient(-70deg, rgba(182,0,255,1) 0%, rgba(42,5,123,1) 43%, rgba(0,0,0,1) 100%);;
-  --second-bg-color: #000000;
+  --bg-color:linear-gradient(to right top, #000000, #1e0010, #2a0022, #2c003c, #10005e);
+  --second-bg-color: #290061;
   --text-color: white;
-  --main-color: #892CDC;
+  --main-color: #004cda;
 }
 
 html {
@@ -24,4 +24,9 @@ html {
 body {
   background: var(--bg-color);
   color: var(--text-color);
+}
+.heading {
+  font-size: 8rem;
+  text-align: center;
+  margin: 5rem 0;
 }
