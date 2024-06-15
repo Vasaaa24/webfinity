@@ -7,7 +7,13 @@
     justify-content: center;
     gap: 2rem;
 }
-
+.about .heading {
+    text-shadow: -1px 1px 0px #00e6e6,
+    -2px 2px 0px #01cccc,
+    -3px 3px 0px #00bdbd;
+    margin-top: 3rem;
+    margin-bottom: 9rem;
+  }
 .about h2{
     font-size: 60px;
     margin-bottom: 5rem;

@@ -3,12 +3,13 @@ import React from "react";
 const About = () => {
   return (
     <section className="about" id="about">
+      <h2 className="heading">O nás</h2>
       <div className="about-box">
         <div className="content-about">
           <img src="./aboutimg.jpg" alt="" />
         </div>
         <div className="content-about-text">
-          <h3>O nás</h3>
+          <h3>Proč my?</h3>
           <p>
             Vítejte v našem online obchodě, kde spojujeme technologii s tvůrčím
             uměním! Jsme tady proto, abychom vám přinesli špičkově navržené

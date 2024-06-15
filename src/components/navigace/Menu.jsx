@@ -34,7 +34,7 @@ const Menu = () => {
       <nav className="navbar">
         <a href="#home">Úvod</a>
         <a href="#about">O nás</a>
-        <a href="#">Cenník</a>
+        <a href="#testimonials">Cenník</a>
         <a href="#">Kontakty</a>
       </nav>
       <div className="pozadiBurger" id="prvniBurger" onClick={getDropdown}>
@@ -47,16 +47,13 @@ const Menu = () => {
           <a href="#home" className="dropdownLink" onClick={getDropdown}>
             Úvod
           </a>
-          <a href="#education" className="dropdownLink" onClick={getDropdown}>
-            Vzdělání
-          </a>
-          <a href="#services" className="dropdownLink" onClick={getDropdown}>
-            Skills
+          <a href="#about" className="dropdownLink" onClick={getDropdown}>
+            O nás
           </a>
           <a href="#testimonials" className="dropdownLink" onClick={getDropdown}>
-            Projekty
+            Cenník
           </a>
-          <a href="#contact" className="dropdownLink" onClick={getDropdown}>
+          <a href="#" className="dropdownLink" onClick={getDropdown}>
             Kontakty
           </a>
         </div>
