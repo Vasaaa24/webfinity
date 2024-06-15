@@ -34,9 +34,25 @@
   resize: none;
 }
 
-.contact form .btn {
-  margin-top: 5rem;
+.contact form .button {
+    margin-top:5rem;
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+    border-radius: 1rem;
+    font-size: 2rem;
+    color:white;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 50px var(--main-color);
+  }
 @media (max-width: 991px) {
   .contact form {
     flex-direction: column;

@@ -65,4 +65,34 @@
 .content-about-text h3{
     font-size: 38px;
 }
+@media (max-width: 1318px) {
+    .about{
+        padding: 10rem 18%;
+    }
+    .content-about-text {
+
+        min-height: 0;
+    }
+    .about-box{
+        
+        max-height: 750px;
+
+    }
+
+  }
+@media (max-width: 600px) {
+    .about{
+        padding: 10rem 11%;
+    }
+    .content-about-text {
+        font-size: 12px;
+        min-height: 0;
+    }
+    .about-box{
+       
+        max-height: 600px;
+
+    }
+
+  }
 

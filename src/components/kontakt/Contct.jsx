@@ -52,7 +52,7 @@ const Contact = () => {
 
           ></textarea>
           
-          <input type="submit" value="Poslat zprávu" className="btn" />
+          <input type="submit" value="Poslat zprávu" className="button" />
         </div>
       </form>
     </section>
