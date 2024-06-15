@@ -17,7 +17,7 @@ const Home = () => {
             Spolehněte se na nás !
           </p>
           <div className="btn-group">
-            <a href="#" className="btn">
+            <a href="#contact" className="btn">
               Onjednat
             </a>
             <a href="#about" className="btn">
