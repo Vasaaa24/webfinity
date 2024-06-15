@@ -34,7 +34,6 @@
   max-width: 450px;
   background: var(--second-bg-color);
   border-radius: 2rem;
-  margin: 0 2rem;
   padding: 30px 50px;
   cursor: pointer;
   display: flex;
@@ -132,7 +131,9 @@
   html {
     font-size: 50%;
   }
-
+  .testimonial-item {
+    width: 100%;
+  }
   .testimonial-item h2 {
     font-size: 2.2rem;
   }
