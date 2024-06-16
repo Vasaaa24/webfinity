@@ -1,81 +1,76 @@
 .calc-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .calcBox {
-    max-width: 500px;
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5rem;
-  }
-  
-  .input-field,
-  .select-field,
-  .option {
-    box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.25), 
-                0px -12px 30px rgba(0, 0, 0, 0.12), 
-                0px 4px 6px rgba(0, 0, 0, 0.12), 
-                0px 12px 13px rgba(0, 0, 0, 0.17), 
-                0px -3px 5px rgba(0, 0, 0, 0.09);
-    width: 80%;
-    min-height: 65px;
-    padding: 2.5rem;
-    font-size: 1.8rem;
-    color: var(--text-color);
-    background: var(--second-bg-color);
-    border-radius: 2rem;
-    border: 2px solid var(--main-color);
-    resize: none;
-  }
-  
-  .select-field {
-    cursor: pointer;
-    line-height: 35px;
-    -webkit-appearance: menulist;
-    -moz-appearance: menulist; 
-    appearance: menulist; 
-    padding: 2.5rem; 
-  }
-  
-  .cena-value {
-    box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.25), 
-                0px -12px 30px rgba(0, 0, 0, 0.12), 
-                0px 4px 6px rgba(0, 0, 0, 0.12), 
-                0px 12px 13px rgba(0, 0, 0, 0.17), 
-                0px -3px 5px rgba(0, 0, 0, 0.09);
-    width: 80%;
-    padding: 2.5rem;
-    font-size: 1.8rem;
-    color: var(--text-color);
-    background: var(--second-bg-color);
-    border-radius: 2rem;
-    border: 2px solid var(--main-color);
-    resize: none;
-    text-align: center;
-  }
-  
-  .vypocetbtn {
-    display: inline-block;
-    padding: 1rem 2.8rem;
-    background: var(--main-color);
-    box-shadow: 0 0 25px var(--main-color);
-    border-radius: 1rem;
-    font-size: 2rem;
-    color: white;
-    border: 2px solid transparent;
-    letter-spacing: 0.1rem;
-    font-weight: 600;
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
-  }
-  
-  .vypocetbtn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 50px var(--main-color);
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.calcBox {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+.input-field,
+.select-field,
+.option {
+  box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.25),
+    0px -12px 30px rgba(0, 0, 0, 0.12), 0px 4px 6px rgba(0, 0, 0, 0.12),
+    0px 12px 13px rgba(0, 0, 0, 0.17), 0px -3px 5px rgba(0, 0, 0, 0.09);
+  width: 80%;
+  min-height: 65px;
+  padding: 2.5rem;
+  font-size: 1.8rem;
+  color: var(--text-color);
+  background: var(--second-bg-color);
+  border-radius: 2rem;
+  border: 2px solid var(--main-color);
+  resize: none;
+}
+
+.select-field {
+  cursor: pointer;
+  line-height: normal; 
+  -webkit-appearance: menulist; 
+  -moz-appearance: menulist;
+  appearance: menulist;
+}
+
+.cena-value {
+  box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.25),
+    0px -12px 30px rgba(0, 0, 0, 0.12), 0px 4px 6px rgba(0, 0, 0, 0.12),
+    0px 12px 13px rgba(0, 0, 0, 0.17), 0px -3px 5px rgba(0, 0, 0, 0.09);
+  width: 80%;
+  padding: 2.5rem;
+  font-size: 1.8rem;
+  color: var(--text-color);
+  background: var(--second-bg-color);
+  border-radius: 2rem;
+  border: 2px solid var(--main-color);
+  resize: none;
+  text-align: center;
+}
+
+.vypocetbtn {
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: var(--main-color);
+  box-shadow: 0 0 25px var(--main-color);
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: white;
+  border: 2px solid transparent;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.vypocetbtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 50px var(--main-color);
+}
