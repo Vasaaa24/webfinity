@@ -35,9 +35,9 @@
 .select-field {
   cursor: pointer;
   line-height: normal; 
-  -webkit-appearance: menulist; 
-  -moz-appearance: menulist;
-  appearance: menulist;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .cena-value {
