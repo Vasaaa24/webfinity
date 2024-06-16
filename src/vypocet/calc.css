@@ -37,7 +37,7 @@
   line-height: normal; 
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+  appearance:menulist;
 }
 
 .cena-value {
