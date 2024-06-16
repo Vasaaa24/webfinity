@@ -5,8 +5,7 @@
     left: 0;
     width: 100%;
     padding: 3rem 12%;
-    background: #1f014958;
-    backdrop-filter: blur(10px);
+    background: #1f0149;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -141,7 +140,7 @@
   top: 85px;
   left: 0;
   position: fixed;
-  background-color:rgba(0, 0, 0, 0.3);
+  background-color:rgba(0, 0, 0, 0.433);
   backdrop-filter: blur(8px);
   width: 100vw;
   height: calc(100vh - 80px);
@@ -170,7 +169,7 @@
   height: 60px;
   font-weight: 600;
   font-size: 15px;
-  color: rgba(255, 255, 255, 0.81);
+  color: rgb(255, 255, 255);
   -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 173, 181, 0.35);
   -moz-box-shadow: 0px 0px 5px 5px rgba(0, 173, 181, 0.35);
   box-shadow: 0px 0px 5px 5px rgba(0, 173, 181, 0.35);
@@ -180,7 +179,7 @@
   align-items: center;
   justify-content: center;
   justify-content: space-around;
-  background-color: rgba(255, 255, 255, 0.844);
+  background-color: rgb(255, 255, 255);
   border-radius: 20px;
   width: 50%;
   height: 60px;
@@ -224,8 +223,6 @@
     right: 0;
     width: 50%;
     padding: 1rem 3%;
-    background: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(20px);
     border-bottom-left-radius: 2rem;
     border-left: 2px solid var(--main-color);
     border-bottom: 2px solid var(--main-color);

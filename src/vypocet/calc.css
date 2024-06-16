@@ -33,11 +33,18 @@
 }
 
 .select-field {
+  display: flex;
   cursor: pointer;
-  line-height: normal; 
+  line-height: normal;
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance:menulist;
+  appearance: none;
+  padding: 10px; 
+  border-radius: 2rem; 
+  background-image: url("/public/arrow.webp");
+  background-repeat: no-repeat;
+  background-position: right 10px center; 
+  background-size: 12px; 
 }
 
 .cena-value {

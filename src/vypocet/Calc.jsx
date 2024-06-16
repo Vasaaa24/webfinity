@@ -39,7 +39,7 @@ const Calc = () => {
           placeholder="Napište počet stránek..."
         />
 
-        <select id="typ" className="select-field">
+        <select id="typ" className="select-field" >
           <option className="option">Basic</option>
           <option className="option">Medium</option>
           <option className="option">Advanced</option>
