@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
-  function getDropdown() {
+  
+  const getDropdown = () => {
     const dropdown = document.getElementById("dropdown");
     const PrvniB = document.getElementById("PrvniB");
     const DruhyB = document.getElementById("DruhyB");
@@ -24,38 +26,50 @@ const Menu = () => {
       PrvniB.style.animation = "rotateAnimationPrvniZpet .2s ease forwards";
       TretiB.style.animation = "rotateAnimationDruhyZpet .2s ease forwards";
     }
-  }
+  };
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className="header">
-      <a href="#home" className="logo">
+      <Link to="/" className="logo">
         Webfinity <span>team</span>
-      </a>
+      </Link>
 
       <nav className="navbar">
-        <a href="#home">Úvod</a>
-        <a href="#about">O nás</a>
-        <a href="#testimonials">Cenník</a>
-        <a href="#contact">Objednat</a>
+        <Link to="/" onClick={() => scrollToSection("home")}  className="menua">Úvod</Link>
+        <Link to="/" onClick={() => scrollToSection("about")} className="menua">O nás</Link>
+        <Link to="/" onClick={() => scrollToSection("testimonials")} className="menua">Cenník</Link>
+        <Link to="/" onClick={() => scrollToSection("contact")} className="menua">Objednat</Link>
+        <Link to="/vypocet/Calc" className="kalkulačka-pc" >Kalkulačka</Link>
       </nav>
       <div className="pozadiBurger" id="prvniBurger" onClick={getDropdown}>
-          <div className="burger PrvniB" id="PrvniB"></div>
-          <div className="burger DruhyB" id="DruhyB"></div>
-          <div className="burger TretiB" id="TretiB"></div>
-        </div>
+        <div className="burger PrvniB" id="PrvniB"></div>
+        <div className="burger DruhyB" id="DruhyB"></div>
+        <div className="burger TretiB" id="TretiB"></div>
+      </div>
       <div className="dropdown" id="dropdown" style={{ display: "none" }}>
         <div className="pozadiDropdown">
-          <a href="#home" className="dropdownLink" onClick={getDropdown}>
+          <Link to="/" className="dropdownLink" onClick={() => {getDropdown(); scrollToSection("home");}}>
             Úvod
-          </a>
-          <a href="#about" className="dropdownLink" onClick={getDropdown}>
+          </Link>
+          <Link to="/" className="dropdownLink" onClick={() => {getDropdown(); scrollToSection("about");}}>
             O nás
-          </a>
-          <a href="#testimonials" className="dropdownLink" onClick={getDropdown}>
+          </Link>
+          <Link to="/" className="dropdownLink" onClick={() => {getDropdown(); scrollToSection("testimonials");}}>
             Cenník
-          </a>
-          <a href="#contact" className="dropdownLink" onClick={getDropdown}>
+          </Link>
+          <Link to="/" className="dropdownLink" onClick={() => {getDropdown(); scrollToSection("contact");}}>
             Kontakty
-          </a>
+          </Link>
+          <Link to="/vypocet/Calc" className="dropdownLinkCalc" onClick={() => {getDropdown();}}>
+            Kalkulačka
+          </Link>
         </div>
       </div>
     </header>

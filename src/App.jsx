@@ -1,10 +1,9 @@
-import Menu from "./components/navigace/Menu";
+
 import Home from "./components/homepage/Home";
 import About from "./components/onas/About";
 import Cennik from "./components/cennik/Cennik";
 import Contact from "./components/kontakt/Contct";
 import Footer from "./components/footer/Footer";
-
 // CSS
 import './App.css';
 import "./components/footer/footer.css"
@@ -17,7 +16,7 @@ import "./components/homepage/home.css"
 function App() {
   return (
     <>
-    <Menu />
+   
     <Home />
     <About/>
     <Cennik/>

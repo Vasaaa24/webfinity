@@ -1,5 +1,6 @@
 import React from "react";
 import "boxicons";
+import { Link } from "react-router-dom";
 
 const Cennik = () => {
   return (
@@ -19,9 +20,9 @@ const Cennik = () => {
               <box-icon name="star" type="solid" color="gold"></box-icon>
               <box-icon name="star" type="solid" color="gold"></box-icon>
             </div>
-            <a href="#" className="vypocet">
-              Výpočet ceny
-            </a>
+            <Link to="/vypocet/Calc">
+              <p className="vypocet">Výpočet ceny</p>
+            </Link>
           </div>
 
           <div className="testimonial-item">
@@ -37,9 +38,9 @@ const Cennik = () => {
               <box-icon name="star" type="solid" color="gold"></box-icon>
               <box-icon name="star" type="solid" color="gold"></box-icon>
             </div>
-            <a href="#" className="vypocet">
-              Výpočet ceny
-            </a>
+            <Link to="/vypocet/Calc">
+              <p className="vypocet">Výpočet ceny</p>
+            </Link>
           </div>
 
           <div className="testimonial-item">
@@ -57,9 +58,9 @@ const Cennik = () => {
               <box-icon name="star" type="solid" color="gold"></box-icon>
               <box-icon name="star" type="solid" color="gold"></box-icon>
             </div>
-            <a href="#" className="vypocet">
-              Výpočet ceny
-            </a>
+            <Link to="/vypocet/Calc">
+              <p className="vypocet">Výpočet ceny</p>
+            </Link>
           </div>
         </div>
       </div>

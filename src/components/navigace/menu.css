@@ -39,7 +39,7 @@
     cursor: pointer;
   }
   
-  .navbar a {
+  .menua{
     font-size: 1.8rem;
     color: var(--text-color);
     margin-left: 4rem;
@@ -48,10 +48,23 @@
     border-bottom: 3px solid transparent;
   }
   
-  .navbar a:hover,
-  .navbar a.active {
-    color: var(--main-color);
+  .menua:hover {
     border-bottom: 3px solid var(--main-color);
+  }
+  .kalkulačka-pc{
+    background-color: white;
+    padding: 9px;
+    font-size: 1.8rem;
+    color: var(--main-color);
+    margin-left: 10rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+    border-radius: 10px;
+  }
+  .kalkulačka-pc:hover{
+    background-color: var(--main-color);
+    color: white;
+
   }
   /* Burger*/
 
@@ -162,6 +175,23 @@
   -moz-box-shadow: 0px 0px 5px 5px rgba(0, 173, 181, 0.35);
   box-shadow: 0px 0px 5px 5px rgba(0, 173, 181, 0.35);
 }
+.dropdownLinkCalc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.844);
+  border-radius: 20px;
+  width: 50%;
+  height: 60px;
+  font-weight: 600;
+  font-size: 15px;
+  color:var( --main-color) ;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 173, 181, 0.35);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(0, 173, 181, 0.35);
+  box-shadow: 0px 0px 5px 5px rgba(0, 173, 181, 0.35);
+}
+
 
 @media (max-width: 991px) {
   .header {
@@ -210,9 +240,17 @@
     width: 70%;
     font-size: 19px;
   }
+  .dropdownLinkCalc {
+    width: 70%;
+    font-size: 19px;
+  }
 }
 @media only screen and (max-width: 450px) {
   .dropdownLink {
+    width: 70%;
+    font-size: 19px;
+  }
+  .dropdownLinkCalc {
     width: 70%;
     font-size: 19px;
   }

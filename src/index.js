@@ -3,11 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+import Menu from "./components/navigace/Menu";
+import Calc from './vypocet/Calc';
+
+import "./vypocet/calc.css"
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+        <Menu/>
+        <Routes>
+          <Route path="/" element={<App/>} />
+          <Route path="/vypocet/Calc" element={<Calc/>} />
+        </Routes>
+    </Router>
   </React.StrictMode>
 );
 
